@@ -1,6 +1,7 @@
 #include <iostream>
+#include "user/include/kalman_filter.h"
 
 int main(int argc, char **argv) {
-    std::cout << "Hello, world!" << std::endl;
+    kalman_filter();
     return 0;
 }

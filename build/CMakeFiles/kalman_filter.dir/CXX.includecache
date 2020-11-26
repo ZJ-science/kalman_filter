@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zj-robot/projects/kalman_filter/main.cpp
+iostream
+-
+user/include/kalman_filter.h
+/home/zj-robot/projects/kalman_filter/user/include/kalman_filter.h
+
+/home/zj-robot/projects/kalman_filter/user/include/kalman_filter.h
+iostream
+-
+eigen3/Eigen/Core
+-
+
